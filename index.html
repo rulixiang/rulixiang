@@ -1,542 +1,141 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <title>Lixiang Ru</title>
-  <link rel="shortcut icon" href="">
-  <meta content="Lixiang Ru" name="keywords" />
-  <style media="screen" type="text/css">
-    html,
-    body,
-    div,
-    span,
-    applet,
-    object,
-    iframe,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    blockquote,
-    pre,
-    a,
-    abbr,
-    acronym,
-    address,
-    big,
-    cite,
-    code,
-    del,
-    dfn,
-    em,
-    font,
-    img,
-    ins,
-    kbd,
-    q,
-    s,
-    samp,
-    small,
-    strike,
-    strong,
-    sub,
-    tt,
-    var,
-    dl,
-    dt,
-    dd,
-    ol,
-    ul,
-    li,
-    fieldset,
-    form,
-    label,
-    legend,
-    table,
-    caption,
-    tbody,
-    tfoot,
-    thead,
-    tr,
-    th,
-    td {
-      border: 0pt none;
-      font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-      font-size: 100%;
-      font-styleRu: inherit;
-      font-weight: inherit;
-      margin: 0pt;
-      outline-color: invert;
-      outline-style: none;
-      outline-width: 0pt;
-      padding: 0pt;
-      vertical-align: baseline;
-    }
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    a {
-      color: #043d98;
-      text-decoration: none;
-    }
+	<meta name="keywords" content="Lixiang Ru, School of Computer Science, Wuhan University.">
+	<meta name="description" content="Lixiang Ru &#39;s home page">
+	<link rel="stylesheet" href="./jemdoc.css" type="text/css">
+	<title>Lixiang Ru</title>
 
-    a:focus,
-    a:hover {
-      color: #f09228;
-      text-decoration: none;
-    }
-
-    a.paper {
-      font-weight: bold;
-      font-size: 12pt;
-    }
-
-    b.paper {
-      font-weight: bold;
-      font-size: 12pt;
-    }
-
-    * {
-      margin: 0pt;
-      padding: 0pt;
-    }
-
-    body {
-      position: relative;
-      margin: 2em auto 2em auto;
-      width: 56%;
-      font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-      font-size: 14px;
-      background: #F4F6F6;
-    }
-
-    h2 {
-      font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-      font-size: 15pt;
-      font-weight: 700;
-    }
-
-    h3 {
-      font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-      font-size: 16px;
-      font-weight: 700;
-    }
-
-    strong {
-      /* font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-  font-size: 13px;*/
-      font-weight: bold;
-    }
-
-    ul {
-      list-style: disc;
-    }
-
-    img {
-      border: none;
-    }
-
-    li {
-      padding-bottom: 0.5em;
-      margin-left: 1.4em;
-    }
-
-
-    alert {
-      font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-      /*font-size: 13px;*/
-      color: #FF0000;
-    }
-
-    em,
-    i {
-      font-style: italic;
-    }
-
-    div.section {
-      clear: both;
-      margin-bottom: 1.2em;
-      background: #F4F6F6;
-    }
-
-    div.spanner {
-      clear: both;
-    }
-
-    div.paper {
-      clear: both;
-      margin-top: 0.4em;
-      margin-bottom: 0.7em;
-      border: 0px solid #ddd;
-      background: #fff;
-      padding: 0.55em .8em 0.6em .8em;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      line-height: 140%;
-    }
-
-    div.paper2 {
-      clear: both;
-      margin-top: 0.4em;
-      margin-bottom: 0.7em;
-      border: 0px solid #ddd;
-      background: #fff;
-      padding: 0.55em .8em 0.6em .8em;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      line-height: 140%;
-    }
-
-    div.paper:hover {
-      background: #FFFDEE;
-      /* background-color: #242d36 ; */
-    }
-
-    div.paper2:hover {
-      background: #FFFDEE;
-      /* background-color: #242d36 ; */
-    }
-
-    div.bio {
-      clear: both;
-      margin-top: 0.4em;
-      margin-bottom: 0.7em;
-      border: 0px solid #ddd;
-      background: #fff;
-      padding: 0.55em .8em 0.6em .8em;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      line-height: 135%;
-    }
-
-    div.res {
-      clear: both;
-      margin-top: 0.4em;
-      margin-bottom: 0.4em;
-      border: 0px solid #ddd;
-      background: #fff;
-      padding: 0.65em .8em 0.15em .8em;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      line-height: 130%;
-    }
-
-    div.award {
-      clear: both;
-      margin-top: 0.4em;
-      margin-bottom: 0.4em;
-      border: 0px solid #ddd;
-      background: #fff;
-      padding: 0.65em .8em 0.15em .8em;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      line-height: 130%;
-    }
-
-    div.paper div {
-      padding-left: 230px;
-    }
-
-    img.paper {
-      margin-bottom: 0.5em;
-      float: left;
-      width: 200px;
-    }
-
-    span.blurb {
-      font-style: italic;
-      display: block;
-      margin-top: 0.75em;
-      margin-bottom: 0.5em;
-    }
-
-    pre,
-    code {
-      font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-      font-size: 13px;
-      margin: 1em 0;
-      padding: 0;
-    }
-
-    .bot {
-      font-size: 14%;
-    }
-
-    .ptypej {
-      display: inline;
-      padding: .0em .2em .05em;
-      font-size: 85%;
-      font-weight: bold;
-      line-height: 1;
-      background-color: #5cb85c;
-      color: #FFFFFF;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: baseline;
-      margin-right: 6px;
-    }
-
-    .ptypec {
-      display: inline;
-      padding: .0em .2em .05em;
-      font-size: 85%;
-      font-weight: bold;
-      line-height: 1;
-      background-color: #428bca;
-      color: #FFFFFF;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: baseline;
-      margin-right: 6px;
-    }
-
-    .ptypep {
-      display: inline;
-      padding: .0em .2em .05em;
-      font-size: 85%;
-      font-weight: bold;
-      line-height: 1;
-      background-color: #6B6B6B;
-      color: #FFFFFF;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: baseline;
-      margin-right: 6px;
-    }
-
-    /* navigation */
-    #nav {
-      /* font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans',*/
-      /* Corbel, Arial, Helvetica, sans-serif; */
-      font-family: Georgia, Helvetica, sans-serif;
-      position: fixed;
-      top: 50px;
-      /* left: 860px; */
-      margin-left: 810px;
-      /*1060*/
-      width: 92px;
-      font-size: 14px;
-    }
-
-    #nav li2 {
-      margin-bottom: 1px;
-    }
-
-    ol {
-      list-style: none;
-    }
-
-    #nav a {
-      display: block;
-      padding: 6px 9px 7px;
-      color: #fff;
-      background-color: #455A64;
-      text-decoration: none;
-    }
-
-    #nav a:hover {
-      color: #ffde00;
-      /* background-color: #242d36 ; */
-    }
-  </style>
-
-  <script type="text/javascript" async="" src="./files/ga.js"></script>
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-7953909-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-  <script type="text/javascript" src="./files/hidebib.js"></script>
-
-  <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>-->
-  <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
-  <!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
 </head>
-<script src="./files/main.js"></script>
 
 <body>
 
-  <a name="home"></a>
-  <div
-    style="margin-bottom: 1em; border-top-right-radius:10px; border-top-left-radius:10px; border-bottom-left-radius:10px; border-bottom-right-radius:10px; border: 0px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
-    <div style="margin: 0px auto; width: 100%;">
-      <img title="" style="float: left; padding-left: .3em; padding-top: 0em; height: 140px;"
-        src="https://avatars3.githubusercontent.com/u/19813690?s=460&v=4" />
+	<div id="layout-content" style="margin-top:25px">
 
-      <div style="padding-left: 16em; padding-top: 0em; vertical-align: top; height: 0px; width: 100%;">
-        <p>&nbsp;</p>
-        <p><span style="line-height: 80%; font-size: 18pt;">Lixiang Ru</span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="rlx.png"
-            height="30px" style="margin-bottom:-8px"></p>
+		<table>
+			<tbody>
+				<tr>
+					<td width="670">
+						<div id="toptitle">
+							<h1>Lixiang Ru &nbsp; <img src="./rlx.png" height="32px" style="margin-bottom:-5px"></h1>
+							<h1>
+							</h1>
+						</div>
 
-        <p>&nbsp;</p>
-        <p><a href="mailto:rulixiang@outlook.com">[Email]</a>&nbsp;&nbsp;&nbsp;<a
-            href="https://rulixiang.github.io/blog">[Blog]</a>&nbsp;&nbsp;&nbsp;<a
-            href="https://github.com/rulixiang">[Github]</a>&nbsp;&nbsp;&nbsp;<a
-            href="https://scholar.google.com/citations?user=y7wegKQAAAAJ">[Google Scholar]</a></p>
-        <p>&nbsp;</p>
-        <p>School of Computer Science<br />
-          Wuhan University</p>
-      </div>
-      <!--<img title="" style="float: left; padding-left: 25em; padding-top: 0em; height: 140px;" src="wordcloud3.png" />-->
-    </div>
-  </div>
-  <!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
+						<h3>Ph.D student</h3>
+						<p>School of Computer Science, Wuhan University.</p>
+						<p>
+							<br>
+							[<a href="mailto:rulixiang@outlook.com">Email</a>] &nbsp;
+							[<a href="https://github.com/rulixiang">GitHub</a>] &nbsp;
+							[<a href="https://scholar.google.com/citations?user=y7wegKQAAAAJ">Google Scholar</a>]
 
-  <div style="clear: both;">
+							
+						</p>
+					</td>
+					<td>
+						<img src="./Jianping Shi_files/me2.png" border="0" width="200">
+					</td>
+				</tr>
+				<tr>
+				</tr>
+			</tbody>
+		</table>
 
-    <div class="section">
-      <h2>About Me</h2>
-      <div class="bio">
-        <p>I’m currently a student at <a href="http://cs.whu.edu.cn/">School of Computer Science</a>, <a
-            href="https://en.whu.edu.cn/">Wuhan University</a>.</p>
-        <p>&nbsp;</p>
-        <p>My research interest</p>
-      </div>
-    </div>
-  </div>
+		<h2>Biography</h2>
+		<p>
+			I'm currently a Ph.d student in <a href="http://cs.whu.edu.cn/"> School of Computer Science</a>, <a href="https://www.whu.edu.cn/">Wuhan University</a>. I'm interested in <b><i>Weakly-Supervised</i></b> vision problems, e.g. weakly-supervised semantic image segmentation. 
+		</p>
 
+		<h2>Publications</h2>
+		<p><a href="https://scholar.google.com/citations?user=y7wegKQAAAAJ">Google Scholar</a></p>
+		<table id="tbPublications" width="100%">
 
-  <h2 id="confpapers4"><a name="education"></a></h2>
-  <div style="clear: both;">
-    <div class="section">
-      <h2 id="confpapers">Education</h2>
-      <div class="award">
-        <table style="border-spacing:3px;width:960px;">
-          <tbody>
-            <tr>
-              <td><a href="http://cs.whu.edu.cn/">School of Computer Science,</a></td>
-              <td><a href="http://en.whu.edu.cn/">Wuhan University,</a></td>
-              <td>2018.09 - 2021.06,</td>
-              <td>Master</td>
-            </tr>
-            <tr>
-              <td><a href="http://cse.whu.edu.cn/">School of Cyber Science and Engineering,</a></td>
-              <td><a href="http://en.whu.edu.cn/">Wuhan University,</a></td>
-              <td>2014.09 - 2018.06, </td>
-              <td>Bachelor</td>
-            </tr>
+			<tr>
+				<td width="306"> <img src="imgs/car_det.png" width="290px"> </td>
+				<td> Chen Wu, Jingwen Yuan, <b>Lixiang Ru</b>, Hongruixuan Chen, Bo Du, Liangpei Zhang
+					<br><a href="https://arxiv.org/abs/2006.16098">A Measurement of Transportation Ban inside Wuhan on the COVID-19 Epidemic by Vehicle Detection in Remote Sensing Imagery</a>
+					<br>arXiv:2006.16098 (<i><b>arXiv</b></i>), 2020.
+					<br>[<a href="https://arxiv.org/abs/2006.16098">Paper</a>]
+				</td>
+			</tr>
+			
+			<tr>
+				<td width="306"> <img src="imgs/corrfusion.png" width="290px"> </td>
+				<td> <b>Lixiang Ru</b>, Bo Du, Chen Wu,
+					<br><a href="https://arxiv.org/abs/2006.02176">Multi-Temporal Scene Classification and Scene Change Detection with Correlation based Fusion</a>
+					<br>arXiv:2006.02176 (<i><b>arXiv</b></i>), 2020.
+					<br>[<a href="https://arxiv.org/abs/2006.02176">Paper</a>] [<a href="https://github.com/rulixiang/CorrFusionNet">Code</a>] [<a href="https://github.com/rulixiang/CorrFusionNet">Dataset</a>]
+				</td>
+			</tr>
+			
+			<tr>
+				<td width="306"> <img src="imgs/dsfa.png" width="290px">  </td>
+				<td> Bo Du, <b>Lixiang Ru</b>, Chen Wu, Liangpei Zhang,
+					<br><a href="https://ieeexplore.ieee.org/abstract/document/8824216">Unsupervised Deep Slow Feature Analysis for Change Detection in Multi-Temporal Remote Sensing Images</a>
+					<br>IEEE Transactions on Geoscience and Remote Sensing (<i><b>TGRS</b></i>), 2019.
+					<br>[<a href="https://ieeexplore.ieee.org/abstract/document/8824216">Paper</a>] [<a href="https://github.com/rulixiang/DSFANet">Code</a>]
+				</td>
+			</tr>
 
-          </tbody>
-        </table>
-        <div class="spanner"></div>
-      </div>
-    </div>
-  </div>
+		</table>
 
-  <div class="section">
-    <h2>Experience</h2>
-    <div class="bio">
-      <ul>
-        <li></li>
-      </ul>
+		<h2>Competitions</h2>
 
-    </div>
-  </div>
-
-  <a name="pub"></a>
-  <div style="clear: both;">
-    <div class="section">
-      <div style="clear: both;">
-        <div class="section">
-          <h2 id="confpapers2"> Publications</h2><a href="index.html" id="select1" onclick="showPubs(1); return false;"
-            title="Papers"></a><a href="index.html" id="select2" onclick="showPubs(2); return false;"></a>
-
-          <div id="pubs">
-
-            <div class="paper" id="ru2020">
-              <p><a href="https://arxiv.org/abs/2006.02176"><b>Multi-Temporal Scene Classification and Scene Change
-                    Detection with Correlation based Fusion</b></a><br />
-                <b>Lixiang Ru</b>, Bo Du, Chen Wu</p>
-              <p><em>arXiv preprint</em> (<b>arXiv</b>), 2020</p>
-              <p><a href='https://github.com/rulixiang/CorrFusionNet'>Code</a>&nbsp;|&nbsp;<a
-                  href='.'>Dataset</a></p>
-
-            </div>
-
-            <div class="paper" id="du2019tgrs">
-              <p><a href="https://arxiv.org/abs/1812.00645"><b>Unsupervised Deep Slow Feature Analysis for Change
-                    Detection in Multi-Temporal Remote Sensing Image</b></a><br />
-                Bo Du, <b>Lixiang Ru</b>, Chen Wu, Liangpei Zhang</p>
-              <p><em>IEEE Transactions on Geoscience and Remote Sensing</em> (<b>TGRS</b>), 2019</p>
-              <p><a href='https://github.com/rulixiang/DSFANet'>Code</a>&nbsp;</p>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Competitions</h2>
-    <div class="award"">
-      <ul>
-        <li>2018 &nbsp;&nbsp; Aerospace Remote Sensing Cup of High Resolution Application Solution
-          Competition, &nbsp;&nbsp; <b>Rank
-            4/94</b>;</li>
-        <li>2016 &nbsp;&nbsp; China Undergraduate Mathematical Contest in Modeling (Hubei Province),
-          &nbsp;&nbsp; <b>Third-Class Prize</b>;
-        </li>
-        <li>2015 &nbsp;&nbsp; National College Students Mathematical Competition (Hubei Province),
-          &nbsp;&nbsp; <b>First-Class Prize</b>;
-        </li>
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Awards</h2>
-    <div class="award"">
-      <table style="border-spacing:3px;width:960px;">
-          <tbody>
-            <tr>
-              <td><a href="http://www.grss-ieee.org/awards/ieee-grss-transactions-prize-paper-award/">IEEE GRSS
-                  Transactions Prize Paper Award</a>,</td>
-              <td><a href="http://www.grss-ieee.org">IEEE GRSS Society</a>,</td>
-              <td>2020</td>
-            </tr>
-            <tr>
-              <td>Outstanding Postgraduate Scholarship,</td>
-              <td>Wuhan University,</td>
-              <td>2019</td>
-            </tr>
-            <tr>
-              <td>Outstanding Student Scholarship,</td>
-              <td>Wuhan University,</td>
-              <td>2015,2016</td>
-            </tr>
-            <tr>
-              <td>National Encouragement Scholarship,</td>
-              <td>Wuhan University,</td>
-              <td>2015,2016</td>
-            </tr>
-
-          </tbody>
-        </table>
-
-    </div>
-  </div>
+		<ul>
+			<li>2018 &nbsp;&nbsp; Aerospace Remote Sensing Cup of High Resolution Application Solution
+			  Competition, &nbsp;&nbsp; <b>Rank
+				4/94</b>;</li>
+			<li>2016 &nbsp;&nbsp; China Undergraduate Mathematical Contest in Modeling (Hubei Province),
+			  &nbsp;&nbsp; <b>Third-Class Prize</b>;
+			</li>
+			<li>2015 &nbsp;&nbsp; National College Students Mathematical Competition (Hubei Province),
+			  &nbsp;&nbsp; <b>First-Class Prize</b>;
+			</li>
+		  </ul>
 
 
+		<h2>Honors &amp; Awards</h2>
+		<table style="border-spacing:2px; width:720px">
+
+			<tbody>
+				<tr>
+				  <td><a href="http://www.grss-ieee.org/awards/ieee-grss-transactions-prize-paper-award/">IEEE GRSS
+					  Transactions Prize Paper Award</a>,</td>
+				  <td><a href="http://www.grss-ieee.org">IEEE GRSS Society</a>,</td>
+				  <td>2020</td>
+				</tr>
+				<tr>
+				  <td>Outstanding Postgraduate Scholarship,</td>
+				  <td>Wuhan University,</td>
+				  <td>2019</td>
+				</tr>
+				<tr>
+				  <td>Outstanding Student Scholarship,</td>
+				  <td>Wuhan University,</td>
+				  <td>2015,2016</td>
+				</tr>
+				<tr>
+				  <td>National Encouragement Scholarship,</td>
+				  <td>Wuhan University,</td>
+				  <td>2015,2016</td>
+				</tr>
+	
+			  </tbody>
+		</table>
+
+
+		<div id="footer">
+			<div id="footer-text"></div>
+		</div>
+	</div>
+
+
+	<script>mendeleyWebImporter = { open: function () { window.postMessage('0.497287461571146', 'https://shijianping.me') } }</script>
 </body>
 
 </html>
