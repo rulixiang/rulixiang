@@ -6,10 +6,10 @@
 
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#963](https://github.com/microsoft/unilm/issues/963) in [microsoft/unilm](https://github.com/microsoft/unilm)
-2. ❗️ Closed issue [#17](https://github.com/rulixiang/afa/issues/17) in [rulixiang/afa](https://github.com/rulixiang/afa)
-3. 🗣 Commented on [#17](https://github.com/rulixiang/afa/issues/17) in [rulixiang/afa](https://github.com/rulixiang/afa)
-4. ❗️ Closed issue [#15](https://github.com/rulixiang/afa/issues/15) in [rulixiang/afa](https://github.com/rulixiang/afa)
+1. ❗️ Closed issue [#963](https://github.com/microsoft/unilm/issues/963) in [microsoft/unilm](https://github.com/microsoft/unilm)
+2. ❗️ Opened issue [#963](https://github.com/microsoft/unilm/issues/963) in [microsoft/unilm](https://github.com/microsoft/unilm)
+3. ❗️ Closed issue [#17](https://github.com/rulixiang/afa/issues/17) in [rulixiang/afa](https://github.com/rulixiang/afa)
+4. 🗣 Commented on [#17](https://github.com/rulixiang/afa/issues/17) in [rulixiang/afa](https://github.com/rulixiang/afa)
 <!--END_SECTION:activity-->
 
 ---
