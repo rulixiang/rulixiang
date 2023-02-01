@@ -6,10 +6,10 @@
 
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#3](https://github.com/AttendAndExcite/Attend-and-Excite/issues/3) in [AttendAndExcite/Attend-and-Excite](https://github.com/AttendAndExcite/Attend-and-Excite)
-2. ❗️ Closed issue [#963](https://github.com/microsoft/unilm/issues/963) in [microsoft/unilm](https://github.com/microsoft/unilm)
-3. ❗️ Opened issue [#963](https://github.com/microsoft/unilm/issues/963) in [microsoft/unilm](https://github.com/microsoft/unilm)
-4. 🗣 Commented on [#17](https://github.com/rulixiang/afa/issues/17) in [rulixiang/afa](https://github.com/rulixiang/afa)
+1. ❗️ Closed issue [#3](https://github.com/AttendAndExcite/Attend-and-Excite/issues/3) in [AttendAndExcite/Attend-and-Excite](https://github.com/AttendAndExcite/Attend-and-Excite)
+2. 🗣 Commented on [#3](https://github.com/AttendAndExcite/Attend-and-Excite/issues/3) in [AttendAndExcite/Attend-and-Excite](https://github.com/AttendAndExcite/Attend-and-Excite)
+3. ❗️ Opened issue [#3](https://github.com/AttendAndExcite/Attend-and-Excite/issues/3) in [AttendAndExcite/Attend-and-Excite](https://github.com/AttendAndExcite/Attend-and-Excite)
+4. ❗️ Closed issue [#963](https://github.com/microsoft/unilm/issues/963) in [microsoft/unilm](https://github.com/microsoft/unilm)
 <!--END_SECTION:activity-->
 
 ---
