@@ -6,10 +6,10 @@
 
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#9](https://github.com/rulixiang/ToCo/issues/9) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
-2. 🗣 Commented on [#9](https://github.com/rulixiang/ToCo/issues/9) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
-3. ❗️ Closed issue [#10](https://github.com/rulixiang/ToCo/issues/10) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
-4. 🗣 Commented on [#10](https://github.com/rulixiang/ToCo/issues/10) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+1. 🗣 Commented on [#10](https://github.com/rulixiang/ToCo/issues/10) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+2. ❗️ Closed issue [#9](https://github.com/rulixiang/ToCo/issues/9) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+3. 🗣 Commented on [#9](https://github.com/rulixiang/ToCo/issues/9) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+4. ❗️ Closed issue [#10](https://github.com/rulixiang/ToCo/issues/10) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
 <!--END_SECTION:activity-->
 
 ---
