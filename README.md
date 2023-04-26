@@ -6,10 +6,10 @@
 
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/rulixiang/pytorch-cam/pull/1) in [rulixiang/pytorch-cam](https://github.com/rulixiang/pytorch-cam)
-2. 💪 Opened PR [#1](https://github.com/rulixiang/pytorch-cam/pull/1) in [rulixiang/pytorch-cam](https://github.com/rulixiang/pytorch-cam)
-3. ❗️ Closed issue [#25](https://github.com/facebookresearch/CutLER/issues/25) in [facebookresearch/CutLER](https://github.com/facebookresearch/CutLER)
-4. ❗️ Opened issue [#25](https://github.com/facebookresearch/CutLER/issues/25) in [facebookresearch/CutLER](https://github.com/facebookresearch/CutLER)
+1. ❗️ Closed issue [#11](https://github.com/rulixiang/ToCo/issues/11) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+2. 🗣 Commented on [#11](https://github.com/rulixiang/ToCo/issues/11) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+3. 🎉 Merged PR [#1](https://github.com/rulixiang/pytorch-cam/pull/1) in [rulixiang/pytorch-cam](https://github.com/rulixiang/pytorch-cam)
+4. 💪 Opened PR [#1](https://github.com/rulixiang/pytorch-cam/pull/1) in [rulixiang/pytorch-cam](https://github.com/rulixiang/pytorch-cam)
 <!--END_SECTION:activity-->
 
 ---
