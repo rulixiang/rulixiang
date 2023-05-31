@@ -9,8 +9,8 @@
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
 1. 🗣 Commented on [#14](https://github.com/rulixiang/ToCo/issues/14) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
-2. ❗️ Closed issue [#14](https://github.com/rulixiang/ToCo/issues/14) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
-3. ❗️ Closed issue [#11](https://github.com/rulixiang/ToCo/issues/11) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+2. 🔒 Closed issue [#14](https://github.com/rulixiang/ToCo/issues/14) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
+3. 🔒 Closed issue [#11](https://github.com/rulixiang/ToCo/issues/11) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
 4. 🗣 Commented on [#11](https://github.com/rulixiang/ToCo/issues/11) in [rulixiang/ToCo](https://github.com/rulixiang/ToCo)
 <!--END_SECTION:activity-->
 
